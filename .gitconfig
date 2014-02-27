@@ -1,10 +1,14 @@
 [user]
-	name = Rebrov Boris
-	email = zipper@medde.ru
+	name = Evgeni Ivanov
+	email = e_ivanov@corp.mail.ru
+[push]
+	default = current
 [color]
 	ui = true
-[http]
-	sslVerify = false
-[core]
-	excludesfile = ~/.gitignore_g
-	mergeoptions = --no-edit
+[alias]
+	st = status
+	sta = status
+	co = checkout
+	br = branch
+	ci = commit
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
